@@ -4,3 +4,6 @@ SELECT * FROM employees;
 select * from students where  grade = 'A';
 3) select with Group by 
 select  departments, count(*) from students  group by department;
+4) select with  limit/top
+SELECT DISTINCT department FROM students;
+SELECT TOP 10 * FROM employees; 
