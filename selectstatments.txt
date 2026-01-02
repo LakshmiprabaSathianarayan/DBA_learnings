@@ -1,1 +1,6 @@
-hello sql
+1 ) simple select 
+SELECT * FROM employees;
+2) select with where clause 
+select * from students where  grade = 'A';
+3) select with Group by 
+select  departments, count(*) from students  group by department;
